@@ -2,7 +2,7 @@ import UIKit
 
 
 extension RazorCore {
-    class Color {
+    public class Color {
         /// Allows you to convert a 6 hexadecimal string into a UIColor instance
         /// - warning: The "#" symbol is stripped from the beginning of the string submitted here.
         /// - Parameters:
