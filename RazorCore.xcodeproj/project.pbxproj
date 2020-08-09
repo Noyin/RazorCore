@@ -6,20 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		"RazorCore::RazorCorePackageTests::ProductTarget" /* RazorCorePackageTests */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_32 /* Build configuration list for PBXAggregateTarget "RazorCorePackageTests" */;
-			buildPhases = (
-			);
-			dependencies = (
-				OBJ_35 /* PBXTargetDependency */,
-			);
-			name = RazorCorePackageTests;
-			productName = RazorCorePackageTests;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		OBJ_23 /* RazorCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* RazorCore.swift */; };
 		OBJ_30 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
@@ -35,13 +21,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "RazorCore::RazorCore";
 			remoteInfo = RazorCore;
-		};
-		78202CF424DF2BCC00D79408 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "RazorCore::RazorCoreTests";
-			remoteInfo = RazorCoreTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -101,7 +80,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -110,7 +89,6 @@
 				OBJ_14 /* Products */,
 				OBJ_17 /* README.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -196,14 +174,13 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				"RazorCore::RazorCore" /* RazorCore */,
 				"RazorCore::SwiftPMPackageDescription" /* RazorCorePackageDescription */,
-				"RazorCore::RazorCorePackageTests::ProductTarget" /* RazorCorePackageTests */,
 				"RazorCore::RazorCoreTests" /* RazorCoreTests */,
 			);
 		};
@@ -238,11 +215,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_35 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "RazorCore::RazorCoreTests" /* RazorCoreTests */;
-			targetProxy = 78202CF424DF2BCC00D79408 /* PBXContainerItemProxy */;
-		};
 		OBJ_45 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "RazorCore::RazorCore" /* RazorCore */;
@@ -352,18 +324,6 @@
 			};
 			name = Debug;
 		};
-		OBJ_33 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		OBJ_34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
 		OBJ_38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -464,15 +424,6 @@
 			buildConfigurations = (
 				OBJ_27 /* Debug */,
 				OBJ_28 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_32 /* Build configuration list for PBXAggregateTarget "RazorCorePackageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_33 /* Debug */,
-				OBJ_34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
