@@ -7,7 +7,13 @@ final class RazorCoreTests: XCTestCase {
         XCTAssertEqual(color, .red)
     }
 
+    func testRazeColorsAreEqual() {
+           let color = RazorCore.colorFromHexString("006736")
+           XCTAssertEqual(color, RazorCore.razeColor)
+       }
+
     static var allTests = [
-        ("testColorRedEqual", testColorRedEqual)
+        ("testColorRedEqual", testColorRedEqual),
+        ("testRazeColorsAreEqual", testRazeColorsAreEqual)
     ]
 }
